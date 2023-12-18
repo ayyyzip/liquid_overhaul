@@ -1,0 +1,230 @@
+Category:
+    crafting                                #category
+    advanced-crafting                       #category
+    smelting                                #category
+    chemistry                               #category
+    crafting-with-fluid                     #category
+    oil-processing                          #category
+    rocket-building                         #category
+    centrifuging                            #category
+    basic-crafting                          #category
+
+        logistics                               #group
+            storage                                 #subgroup
+            belt                                    #subgroup
+            inserter                                #subgroup
+            energy-pipe-distribution                #subgroup
+            train-transport                         #subgroup
+            transport                               #subgroup
+            logistic-network                        #subgroup
+            circuit-network                         #subgroup
+            terrain                                 #subgroup
+
+        production
+            tool
+            energy
+            extraction-machine
+            smelting-machine
+            production-machine
+            module
+            space-related
+        
+        intermediate-products
+            fluid-recipes
+            raw-resource
+            raw-material
+            barrel
+            fill-barrel
+            empty-barrel
+            intermediate-product
+            science-pack
+
+        combat
+            gun
+            ammo
+            capsule
+            armor
+            equipment
+            military-equipment
+            defensive-structure
+
+        fluids
+            fluid
+
+        signals
+            virtual-signal-special
+            virtual-signal-number
+            virtual-signal-letter
+            virtual-signal-color
+            virtual-signal
+
+        enemies
+            enemies
+
+        environment
+            creatures
+            cliffs
+            trees
+            grass
+            corpses
+            remnants
+            storage-remnants
+            belt-remnants
+            inserter-remnants
+            energy-pipe-distribution-remnants
+            train-transport-remnants
+            transport-remnants
+            logistic-network-remnants
+            circuit-network-remnants
+            energy-remnants
+            extraction-machine-remnants
+            smelting-machine-remnants
+            production-machine-remnants
+            defensive-structure-remnants
+            generic-remnants
+            scorchmarks
+            wrecks
+
+        effects 
+
+    type = "item-group",
+    name = "effects",
+    icon = "__base__/graphics/item-group/effects.png",
+    icon_size = 128,
+    icon_mipmaps = 2,
+    order = "y"
+ 
+    type = "item-subgroup",
+    name = "storage-explosions",
+    group = "effects",
+    order = "aa"
+ 
+    type = "item-subgroup",
+    name = "belt-explosions",
+    group = "effects",
+    order = "ab"
+  
+    type = "item-subgroup",
+    name = "inserter-explosions",
+    group = "effects",
+    order = "ac"
+ 
+    type = "item-subgroup",
+    name = "energy-pipe-distribution-explosions",
+    group = "effects",
+    order = "ad"
+ 
+    type = "item-subgroup",
+    name = "train-transport-explosions",
+    group = "effects",
+    order = "ae"
+ 
+    type = "item-subgroup",
+    name = "transport-explosions",
+    group = "effects",
+    order = "af"
+ 
+    type = "item-subgroup",
+    name = "logistic-network-explosions",
+    group = "effects",
+    order = "ag"
+ 
+    type = "item-subgroup",
+    name = "circuit-network-explosions",
+    group = "effects",
+    order = "ah"
+ 
+    type = "item-subgroup",
+    name = "energy-explosions",
+    group = "effects",
+    order = "ba"
+
+    type = "item-subgroup",
+    name = "extraction-machine-explosions",
+    group = "effects",
+    order = "bb"
+ 
+    type = "item-subgroup",
+    name = "smelting-machine-explosions",
+    group = "effects",
+    order = "bc"
+
+    type = "item-subgroup",
+    name = "production-machine-explosions",
+    group = "effects",
+    order = "bd"
+ 
+    type = "item-subgroup",
+    name = "module-explosions",
+    group = "effects",
+    order = "be"
+ 
+    type = "item-subgroup",
+    name = "campaign-explosions",
+    group = "effects",
+    order = "bf"
+ 
+    type = "item-subgroup",
+    name = "gun-explosions",
+    group = "effects",
+    order = "ca"
+ 
+    type = "item-subgroup",
+    name = "defensive-structure-explosions",
+    group = "effects",
+    order = "cb"
+ 
+    type = "item-subgroup",
+    name = "capsule-explosions",
+    group = "effects",
+    order = "cc"
+
+    type = "item-subgroup",
+    name = "tree-explosions",
+    group = "effects",
+    order = "cd"
+
+    type = "item-subgroup",
+    name = "rock-explosions",
+    group = "effects",
+    order = "da"
+
+    type = "item-subgroup",
+    name = "ground-explosions",
+    group = "effects",
+    order = "db"
+
+    type = "item-subgroup",
+    name = "decorative-explosions",
+    group = "effects",
+    order = "dc"
+
+    type = "item-subgroup",
+    name = "explosions",
+    group = "effects",
+    order = "de"
+
+    type = "item-subgroup",
+    name = "hit-effects",
+    group = "effects",
+    order = "e"
+
+    type = "item-subgroup",
+    name = "particles",
+    group = "effects",
+    order = "e"
+
+-------------------------------------------------------------------------- OTHER
+
+    type = "item-group",
+    name = "other",
+    icon = "__core__/graphics/icons/category/unsorted.png",
+    icon_size = 128,
+    icon_mipmaps = 2,
+    order = "z"
+
+    type = "item-subgroup",
+    name = "other",
+    group = "other",
+    order = "z"
+

@@ -1,0 +1,148 @@
+category.lua
+    recipe-category 
+        high-temperature-smelting - High Temperature Oven
+            Soda Lime Glass
+        extracting - 
+            Advanced Orthosilic Process
+        filtering - Filter Machine
+            Orthosilic Acid, 
+            Halitite Filtering
+        crushing - Crushing Machine
+            Gravel Crushing,
+            Stone Crushing
+    
+    crafting-category
+        chemical-crafting
+
+entitys.lua
+    Crushing Machine
+    Filter Machine
+    Oil Refinery 2
+
+fluids.lua
+    #Default: Water 15°C, Crude Oil 25°C
+    #Custom Fluids
+    1.1 Hydrogen 25°C
+    1.2 Liquid Hydrogen -252°C
+    1.3 Orthosilic Acid 25°C
+    1.4 Oxygen 25°C
+    1.5 Hydrochloric Acid (NaOH) 25°C
+    1.6 Sodium Hydroxid (HCl) 25°C
+    1.7 Sodium Oxide (Na2O) 25°C
+    1.8 Calcium Oxide (CaO) 25°C
+    1.9 Carbon Dioxide (CO2) 25°C
+    1.10 Stripped Water 25°C
+    1.11 Methan (CH4) 25°C
+    1.12 Sour Water 25°C
+
+    2.1 Desalted Crude Oil 25°C
+    2.2 Natural Gas 25°C
+    2.3 Light Naphtha 25°C
+    2.4 Heavy Naphtha 25°C
+    2.5 Kerosene Oil 25°C
+    2.6 Diesel Oil 25°C
+    2.7 Atmospheric Gas Oil 25°C
+    2.8 Atmospheric Bottoms 25°C
+    2.9 Fuel Gas 25°C
+    2.10 Hydrogen Sulphide 25°C
+    2.11 Refinery Fuel 25°C
+    2.12 Natural Gas Condensate 25°C
+    2.13 Butanes 25°C
+    2.14 LPG 25°C
+    2.15 Hydrocracked Light Naphtha 25°C
+    2.16 Hydrocracked Heavy Naphtha 25°C
+    2.17 Kerosene 25°C
+    2.18 Hydrocracked Gasoline 25°C
+    2.19 Diesel Fuel 25°C
+    2.20 Heavy Vacuum Gas Oil 25°C
+    2.21 Light Vacuum Gas Oil 25°C
+    2.22 Residual Vacuum Oil 25°C
+    2.23 Coker Gas Oil 25°C
+    2.24 FCC Gas Oil 25°C
+    2.25 FCC Gasoline 25°C
+    2.26 FCC Heavy Cycle Oil 25°C
+    2.27 Fuel Oil 25°C
+    2.28 Isomerate 25°C
+    2.29 Reformate 25°C
+    2.30 Isobutane 25°C
+    2.31 Butenes 25°C
+    2.32 Pentenes 25°C
+    2.33 Alkylate 25°C
+    2.34 
+    2.35 
+    2.36 
+    2.37 
+
+    #Hidden Default Fluids
+    2.1 Heavy Oil
+    2.2 Light Oil
+    2.3 Lubricant
+    2.4 Petroleum Gas
+    2.5 Sulfuric Acid 
+
+items.lua
+    #Custom Items
+    1.1 Soda Lime Glass
+    1.2 Silicium
+    1.3 Sodium
+    1.4 Chlorine
+    1.5 Sodium Chloride
+    1.6 Calcium
+    1.7 Sodium Carbonate
+    1.8 Calcium Carbonate
+    1.9 Silicon Dioxide
+    1.10 Calcium Chloride 
+    1.11 Calcium Hydroxide
+    1.12 Zinc Chloride
+    1.13 Zinc
+    1.14 Gravel
+    1.15 Halitite
+    1.16 Sand
+    1.17 
+    1.18 
+    1.19 
+    1.20 Residual Coke
+    1.21 Residual Asphalt
+    1.22 Catalyst
+    #Entitys
+    2.1 Crushing Machine
+    2.2 Filter Machine 
+    2.3 Oil Refinery 2
+
+recipes.lua
+    #Custom Recipes 
+    1.1 Decompose Water
+    1.2 Soda Lime Glass
+    1.3 Liquid Hydrogen
+    1.4 Orthosilic Acid
+    1.5 Advanced Orthosilic Process
+    1.6 Sodium Chloride
+    1.7 Zinc Chloride
+    1.8 Stone Crushing
+    1.9 Solvay Process
+    1.10 Silicon Dioxide
+    1.11 Sand
+    1.12 Halitite Filtering
+    #Oil Processing
+    2.1 Oil Distillation
+    2.2 Vacuum Oil Distillation
+    2.3 
+    2.4
+    2.5
+    #Entitys
+    3.1 Crushing Machine
+    3.2 Filter Machine
+    3.3 Oil Refinery 2
+    #Hidden Default Recipes
+    4.1 Sulfur
+    4.2 Basic Oil Processing
+    4.3 Advanced Oil Processing
+    4.4 Sulfuric Acid
+    4.5 Coal liquefaction
+    4.6 Lubricant
+    4.7 Light Oil Cracking
+    4.8 Heavy Oil Cracking
+    4.9 Plastic
+
+technologies.lua
+    1 Oil Distillation
